@@ -1,25 +1,21 @@
 class Solution {
 public:
-int count (vector<int>& citations , int val){
-    int number =0;
-    for(int i =0;i<citations.size(); i++){
-        if(citations[i]>=val){
-            number++;
-        }
-    }
-    return number;
-}
-
     int hIndex(vector<int>& citations) {
-      int h= 1;
-      while(h<=citations.size()){
-        if(count(citations , h )  >=h ){
-            h++;
+       int h =1;
+      sort( citations.begin() , citations.end());  // [0 ,1 , 3 , 5 , 6]
+       while(h<=citations.size()){
+    int highest = citations.size()-1 ;
+    int count =0;
+    while(highest>=0){
+        if(count>=h)  break;
+        if(citations[highest]>=h){
+            count++;
         }
-        else{
-            return h-1 ;
-        }
-      }
-      return h-1;  
+        else if( citations[highest] < h && count<h) return h-1;
+        highest--;       
+    }
+h++;
+       } 
+       return  h-1 ;
     }
 };
