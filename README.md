@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Insiyazaidi/Leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
+| [3612-process-string-with-special-operations-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3612-process-string-with-special-operations-i) |
 | [3838-weighted-word-mapping](https://github.com/Insiyazaidi/Leetcode/tree/master/3838-weighted-word-mapping) |
 ## Divide and Conquer
 |  |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [3612-process-string-with-special-operations-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3612-process-string-with-special-operations-i) |
 | [3838-weighted-word-mapping](https://github.com/Insiyazaidi/Leetcode/tree/master/3838-weighted-word-mapping) |
 ## Linked List
 |  |
