@@ -1,59 +1,53 @@
 class Solution {
 public:
-    char processStr(string s, unsigned long long k) {
-     
-
-        int m = s.size();
-        // len[i] = length after processing first i ops (i.e. s[0..i-1])
-        vector<unsigned long long> len(m+1, 0);
-        const unsigned long long LIMIT = 1000000000000000ULL; // 1e15
-        
-        // 2) forward pass: compute lengths
-        for (int i = 0; i < m; i++) {
-            char c = s[i];
-            if (islower(c)) {
-                len[i+1] = min(LIMIT, len[i] + 1);
-            }
-            else if (c == '*') {
-                // pop_back if non-empty
-                len[i+1] = (len[i] > 0 ? len[i] - 1 : 0);
-            }
-            else if (c == '#') {
-                // duplicate
-                len[i+1] = min(LIMIT, len[i] * 2);
-            }
-            else { // c == '%'
-                // reverse doesn’t change length
-                len[i+1] = len[i];
-            }
+    char processStr(string s, long long k) {
+       long long length = 0;
+       // forward pass for calculating length of resultant string 
+       for(int i =0 ; i<s.size(); i++){
+        if(s[i]>='a' && s[i]<='z'){
+             length++;
         }
-        
-      // k is 0-based, so valid indices are [0 .. len[m]-1]
-    if (k >= len[m]) 
+        else if(s[i]=='*'){
+            if(length>0){
+           length--;
+            }           
+        }
+        else if(s[i]=='#'){
+            length = length*2;
+        }    
+       }
+       if(k>=length){  // eg - length = 4 , index valid / k valid will be - 0,1,2,3 .. so if k = 4 we wont be able to access it 
         return '.';
-    unsigned long long idx = k;  // <-- use k directly
+       } 
 
-    // now your existing backward loop will end up returning 'a'
-    for (int i = m; i > 0; i--) {
-        char c = s[i-1];
-        unsigned long long prevLen = len[i-1];
-        
-        if (islower(c)) {
-            if (idx == prevLen) 
-                return c;
+       int n = s.size();
+       // backtrack .. 
+       for(int i = n-1; i>=0;i--){
+        if(s[i] == '*'){  // ek char delete kiya tha
+             length++;  
         }
-        else if (c == '*') {
-            // nothing: '*' only shrank the string
+        else if(s[i] == '#'){  // yaani duplicate kiya tha 
+                   length = length/2;
+                   if(k>=length){  // exceed krrha h toh hi update krege k 
+  k = k-length;
+                   }
         }
-        else if (c == '#') {
-            if (idx >= prevLen) 
-                idx -= prevLen;
-        }
-        else { // '%'
-            idx = prevLen - 1 - idx;
-        }
-    }
-    return '.';
+else if(s[i] == '%'){  // reverse kri h string no need to update length 
+k = length-1-k;
+
+}
+else if(s[i] >='a' && s[i]<='z'){   // char hoga toh length ++ ki thi 
+
+   if(length - 1 == k) {
+                return s[i];
+            }
+            length--;
+}
+
+       }
+
+return '.';
+
 
     }
 };
