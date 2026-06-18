@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Insiyazaidi/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Insiyazaidi/Leetcode/tree/master/0189-rotate-array) |
 | [0274-h-index](https://github.com/Insiyazaidi/Leetcode/tree/master/0274-h-index) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Insiyazaidi/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Insiyazaidi/Leetcode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Insiyazaidi/Leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Insiyazaidi/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Insiyazaidi/Leetcode/tree/master/0169-majority-element) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Insiyazaidi/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Insiyazaidi/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 ## Tree
 |  |
@@ -93,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/Insiyazaidi/Leetcode/tree/master/0189-rotate-array) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Insiyazaidi/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Insiyazaidi/Leetcode/tree/master/1344-angle-between-hands-of-a-clock) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Insiyazaidi/Leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
@@ -136,4 +139,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0181-employees-earning-more-than-their-managers](https://github.com/Insiyazaidi/Leetcode/tree/master/0181-employees-earning-more-than-their-managers) |
 | [0182-duplicate-emails](https://github.com/Insiyazaidi/Leetcode/tree/master/0182-duplicate-emails) |
 | [0183-customers-who-never-order](https://github.com/Insiyazaidi/Leetcode/tree/master/0183-customers-who-never-order) |
+## Design
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/Insiyazaidi/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/Insiyazaidi/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
