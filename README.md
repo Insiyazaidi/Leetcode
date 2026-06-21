@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/Insiyazaidi/Leetcode/tree/master/0274-h-index) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Insiyazaidi/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [1732-find-the-highest-altitude](https://github.com/Insiyazaidi/Leetcode/tree/master/1732-find-the-highest-altitude) |
+| [1833-maximum-ice-cream-bars](https://github.com/Insiyazaidi/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [1840-maximum-building-height](https://github.com/Insiyazaidi/Leetcode/tree/master/1840-maximum-building-height) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Insiyazaidi/Leetcode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Insiyazaidi/Leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Insiyazaidi/Leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Insiyazaidi/Leetcode/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/Insiyazaidi/Leetcode/tree/master/0134-gas-station) |
+| [1833-maximum-ice-cream-bars](https://github.com/Insiyazaidi/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Insiyazaidi/Leetcode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Insiyazaidi/Leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -40,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Insiyazaidi/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Insiyazaidi/Leetcode/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/Insiyazaidi/Leetcode/tree/master/0274-h-index) |
+| [1833-maximum-ice-cream-bars](https://github.com/Insiyazaidi/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [1840-maximum-building-height](https://github.com/Insiyazaidi/Leetcode/tree/master/1840-maximum-building-height) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Insiyazaidi/Leetcode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
@@ -139,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0274-h-index](https://github.com/Insiyazaidi/Leetcode/tree/master/0274-h-index) |
+| [1833-maximum-ice-cream-bars](https://github.com/Insiyazaidi/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 ## Database
 |  |
 | ------- |
