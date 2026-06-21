@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Insiyazaidi/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Insiyazaidi/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0134-gas-station](https://github.com/Insiyazaidi/Leetcode/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/Insiyazaidi/Leetcode/tree/master/0135-candy) |
 | [0169-majority-element](https://github.com/Insiyazaidi/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Insiyazaidi/Leetcode/tree/master/0189-rotate-array) |
 | [0274-h-index](https://github.com/Insiyazaidi/Leetcode/tree/master/0274-h-index) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Insiyazaidi/Leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Insiyazaidi/Leetcode/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/Insiyazaidi/Leetcode/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/Insiyazaidi/Leetcode/tree/master/0135-candy) |
 | [1833-maximum-ice-cream-bars](https://github.com/Insiyazaidi/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Insiyazaidi/Leetcode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
