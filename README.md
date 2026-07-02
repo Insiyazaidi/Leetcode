@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2161-partition-array-according-to-given-pivot](https://github.com/Insiyazaidi/Leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Insiyazaidi/Leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2574-left-and-right-sum-differences](https://github.com/Insiyazaidi/Leetcode/tree/master/2574-left-and-right-sum-differences) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Insiyazaidi/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Insiyazaidi/Leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Insiyazaidi/Leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -173,4 +174,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Insiyazaidi/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+## Breadth-First Search
+|  |
+| ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Insiyazaidi/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
+## Graph Theory
+|  |
+| ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Insiyazaidi/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Insiyazaidi/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
+## Matrix
+|  |
+| ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Insiyazaidi/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
+## Shortest Path
+|  |
+| ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Insiyazaidi/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 <!---LeetCode Topics End-->
