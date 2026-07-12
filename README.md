@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/Insiyazaidi/Leetcode/tree/master/0547-number-of-provinces) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/Insiyazaidi/Leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Dynamic Programming
@@ -177,10 +178,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/Insiyazaidi/Leetcode/tree/master/0547-number-of-provinces) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Insiyazaidi/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Graph Theory
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/Insiyazaidi/Leetcode/tree/master/0547-number-of-provinces) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Insiyazaidi/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Heap (Priority Queue)
 |  |
@@ -194,4 +197,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Insiyazaidi/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
+## Union-Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Insiyazaidi/Leetcode/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
