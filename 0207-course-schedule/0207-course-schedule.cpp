@@ -1,40 +1,41 @@
 class Solution {
 public:
+ bool dfscycle(    unordered_map<int , vector<int>>&adj ,vector<bool>&visited , int u ,vector<bool>&inrecursion  ){
+visited[u] = true;
+inrecursion[u] = true;
+for(auto &v: adj[u]){
+     if(visited[v] == true && inrecursion[v]==true){
+              return true;
+          }
+           
+if(!visited[v] &&dfscycle(adj , visited , v,inrecursion) ){
+  
+return true;
+ 
+
+}
+}
+inrecursion[u]= false;
+return false;
+
+
+}
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         int n = numCourses;
         unordered_map<int , vector<int>>adj;
-        vector<int>indegree(n ,0);
         for(int u = 0 ; u<prerequisites.size(); u++){
         int a = prerequisites[u][0];
         int b = prerequisites[u][1];
-        adj[b].push_back(a);
-        indegree[a]++;
-          
+        adj[b].push_back(a);    
         }
-        queue<int>q;
-         int count = 0 ;
-        for(int i =0; i<indegree.size(); i++){
-            if(indegree[i]==0){
-                q.push(i);
-                count++;
-            }
-        }
-       
-        while(!q.empty()){
-            int u = q.front();
-            q.pop();
-            for(auto &v:adj[u]){
-                indegree[v]--;
-                if(indegree[v]==0){
-                    q.push(v);
-                    count++;
-                }
-            }
-        }
-        if(count==n){ // saare process hogai .. topological sort work -> cycle nhi h -> course krste h 
-            return true;
-        }
-        return false;
+vector<bool>visited(n, false);
+vector<bool>inrecursion(n, false);
+for(int i =0; i<n; i++){
+    if(!visited[i] && dfscycle(adj , visited , i , inrecursion )){ // cycle h 
+return false;
+    }
+}
+    return true; 
      
     }
 };
