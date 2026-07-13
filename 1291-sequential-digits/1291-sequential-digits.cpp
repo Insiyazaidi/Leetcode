@@ -1,22 +1,25 @@
 class Solution {
 public:
-vector<int>ans;
-void solve (int currnumb , int nextdigit , int &low , int &high){
-if(nextdigit>9){
-    return ;
-}
-currnumb = currnumb*10+nextdigit;
-if(currnumb>=low && currnumb<=high){
-    ans.push_back(currnumb);
-}
-// int currnextdi = currnumb%10+1;
-solve(currnumb , nextdigit+1 , low , high);
-}
     vector<int> sequentialDigits(int low, int high) {
-        for(int start = 1; start<=8 ; start++){
-            solve(start , start+1 , low , high);
+       // SOLVING USING BFSS
+       queue<int>q;
+       vector<int>ans;
+       for(int i = 1 ; i<=8 ; i++){
+        q.push(i);
+       } 
+       while(!q.empty()){
+        int curr = q.front();
+        if(curr>=low && curr<=high){
+            ans.push_back(curr);
         }
-        sort(ans.begin() , ans.end());
-        return ans ;
+        q.pop();
+       int ld = curr%10;
+       if(ld+1 <=9){
+int newnumb = curr*10+(ld+1);
+        q.push(newnumb);
+       }
+        
+       }
+       return ans ;
     }
 };
