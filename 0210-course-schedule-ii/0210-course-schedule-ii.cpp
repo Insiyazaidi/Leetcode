@@ -1,44 +1,43 @@
 class Solution {
 public:
+vector<int>ans;
+bool dfscycle(  unordered_map<int , vector<int>>&adj ,vector<bool>&visited , vector<bool>&inrecursion , vector<int>&ans , int u  ){
+    visited[u] = true ;
+    inrecursion[u] = true;
+  
+    for(auto & v : adj[u]){
+        if(visited[v] == true && inrecursion[v]== true){
+            return true ;
+        }
+        if(!visited[v] && dfscycle(adj , visited , inrecursion , ans ,v)){
+            return true ;
+        }
+    }
+    inrecursion[u] =false;
+      ans.push_back(u);
+    return false ;
+}
+
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-           int n = numCourses;
         unordered_map<int , vector<int>>adj;
-        vector<int>indegree(n ,0);
-        for(int u = 0 ; u<prerequisites.size(); u++){
-        int a = prerequisites[u][0];
-        int b = prerequisites[u][1];
-        adj[b].push_back(a);
-        indegree[a]++;
-          
+        for(auto & u :  prerequisites){
+            int a = u[0];
+            int b = u[1];
+               adj[b].push_back(a);
         }
-        queue<int>q;
-         int count = 0 ;
-         vector<int>path;
-        for(int i =0; i<indegree.size(); i++){
-            if(indegree[i]==0){
-                q.push(i);
-                // count++;  -- removing as per kahn algo node is process when pop from queue so do whatevr u want when popping 
-                // path.push_back(i);
-            }
-        }
-       
-        while(!q.empty()){
-            int u = q.front();
-            q.pop();
-                 count++;
-            path.push_back(u);
-            for(auto &v:adj[u]){
-                indegree[v]--;
-                if(indegree[v]==0){
-                    q.push(v);
-                   
-                }
-            }
-        }
-      if(count==n){ // cycle nhi h sb thek h 
-return path;
-      }
-      return {};
-       
+
+vector<bool>visited(numCourses , false);
+vector<bool>inrecursion(numCourses , false);
+vector<int>ans;
+for(int i = 0 ; i<numCourses; i++){
+    if(!visited[i] && dfscycle(adj , visited , inrecursion , ans , i )){ // cycle hai we cant cover courses 
+         return {};
+    }
+}
+
+reverse(ans.begin() ,ans.end());
+return ans ;
+
+
     }
 };
