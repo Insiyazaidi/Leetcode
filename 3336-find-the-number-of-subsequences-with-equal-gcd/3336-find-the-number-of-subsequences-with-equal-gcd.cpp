@@ -1,25 +1,36 @@
 class Solution {
 public:
 int MOD = 1e9+7;
-  int t[201][201][201]; // 200 max value h nums[i] ki 
- int solve (vector<int>& nums , int idx , int firstgcd , int secondgcd){ // eventually we dont need exact seq so only gcd is  //    passed  as parameter 
-if(idx==nums.size()){
-  bool isnotempty = firstgcd !=0 && secondgcd!=0;
-  bool matchgcd  = firstgcd ==secondgcd;
-  return (isnotempty && matchgcd) ? 1: 0; // agr notempty+matchgcd toh 1 return krdo ek match milgya
-}
-if(t[idx][firstgcd][secondgcd] !=-1){
-  return t[idx][firstgcd][secondgcd];
-}
+int solve(vector<int>& nums , int i , int firstgcd , int secondgcd){
+int n = nums.size();
+        int maxel = *max_element(begin(nums) , end(nums));
+        int  t[n+1][maxel+1][maxel+1];
 
-int skip = solve(nums , idx+1 , firstgcd , secondgcd);
-int take1  = solve(nums , idx+1 , __gcd(firstgcd , nums[idx]) , secondgcd);
-int take2 = solve(nums , idx+1 , firstgcd , __gcd(secondgcd , nums[idx])  );
+        // base case in loop 
+        // t[n][firstgcd][secondgcd] - n is fixed , firstgcd and secondgcd ke saari possibility l rhe h 
+        for(int firstgcd = 0 ; firstgcd<=maxel; firstgcd++){
+          for(int secondgcd = 0 ;secondgcd<=maxel; secondgcd++ ){
+           bool isnotempty = firstgcd!=0 && secondgcd!=0;
+           bool match = firstgcd == secondgcd;
+           t[n][firstgcd][secondgcd] =   (isnotempty && match)? 1: 0;
+          }
+        }
 
-           return     t[idx][firstgcd][secondgcd] =  ( 0LL+skip + take1 + take2 )%MOD ;
+        for(int i = n-1 ; i>=0 ; i--){
+            for(int firstgcd = maxel ; firstgcd>=0; firstgcd--){
+                for(int secondgcd = maxel ; secondgcd>=0; secondgcd--){
+                     int skip = t[i+1][firstgcd][secondgcd];
+                     int take1 = t[i+1][(__gcd(firstgcd , nums[i]))][secondgcd];
+                     int take2 = t[i+1][firstgcd][(__gcd(secondgcd , nums[i]))];
+                     t[i][firstgcd][secondgcd] = (0LL + skip+take1+take2)%MOD;
+                }
+            }
+        }
+        return t[0][0][0];
 }
+     
     int subsequencePairCount(vector<int>& nums) {
-        memset(t , -1 , sizeof(t));
-      return  solve(nums ,  0 , 0 , 0);
+ return solve(nums , 0 , 0 ,0); // return the DP cell corresponding to the original recursive call.
+    
     }
 };
