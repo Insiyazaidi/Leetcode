@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Insiyazaidi/Leetcode/tree/master/0189-rotate-array) |
 | [0274-h-index](https://github.com/Insiyazaidi/Leetcode/tree/master/0274-h-index) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Insiyazaidi/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [1260-shift-2d-grid](https://github.com/Insiyazaidi/Leetcode/tree/master/1260-shift-2d-grid) |
 | [1331-rank-transform-of-an-array](https://github.com/Insiyazaidi/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1732-find-the-highest-altitude](https://github.com/Insiyazaidi/Leetcode/tree/master/1732-find-the-highest-altitude) |
 | [1833-maximum-ice-cream-bars](https://github.com/Insiyazaidi/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [1260-shift-2d-grid](https://github.com/Insiyazaidi/Leetcode/tree/master/1260-shift-2d-grid) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Insiyazaidi/Leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [3612-process-string-with-special-operations-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3612-process-string-with-special-operations-i) |
 | [3614-process-string-with-special-operations-ii](https://github.com/Insiyazaidi/Leetcode/tree/master/3614-process-string-with-special-operations-ii) |
@@ -226,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [1260-shift-2d-grid](https://github.com/Insiyazaidi/Leetcode/tree/master/1260-shift-2d-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Insiyazaidi/Leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Shortest Path
 |  |
