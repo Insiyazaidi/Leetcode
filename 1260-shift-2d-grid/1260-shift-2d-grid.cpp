@@ -5,26 +5,22 @@ public:
         int j = 0;
         int m = grid.size();
         int n = grid[0].size();
-  //  vector<vector<int>>newgrid(m , vector<int>(n));
-while(k--){
-      vector<vector<int>>newgrid(m , vector<int>(n));
+vector<vector<int>>newgrid(m , vector<int>(n));
+for(int i = 0 ; i<m; i++){
+    for(int j = 0 ; j<n ; j++){
+        int idx = i*n+j ; //  index = row × columns + column  .. converting 2d into 1 d 
+       int newidx = (idx + k) % (m * n); // in cse sfit krke out of bound hogya 
+     //   Division tells us which row block we're in.
+          // Modulo tells us how far into that row we are.
 
-      for(int i = 0 ; i<m;i++){
-        for(int j = 0 ; j<n ;j++){
-           if(j!=n-1){   // safe grids ko shift krdia
-            newgrid[i][j+1] = grid[i][j];
-           } 
-           else if(i!=m-1){
-            newgrid[i+1][0] = grid[i][n-1];
-           }
-           else if(i == m-1 && j ==n-1){
-            newgrid[0][0] = grid[i][j];
-           }
+int row = newidx/n;
+int col = newidx%n;
+newgrid[row][col] = grid[i][j];
 
-        }
-      }
-      grid = newgrid;
+    }
 }
-     return grid;
+return newgrid;
+
+  
     }
 };
