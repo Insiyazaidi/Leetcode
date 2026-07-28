@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1833-maximum-ice-cream-bars](https://github.com/Insiyazaidi/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [1840-maximum-building-height](https://github.com/Insiyazaidi/Leetcode/tree/master/1840-maximum-building-height) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Insiyazaidi/Leetcode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Insiyazaidi/Leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Insiyazaidi/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Insiyazaidi/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Insiyazaidi/Leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3612-process-string-with-special-operations-i) |
 | [3614-process-string-with-special-operations-ii](https://github.com/Insiyazaidi/Leetcode/tree/master/3614-process-string-with-special-operations-ii) |
 | [3838-weighted-word-mapping](https://github.com/Insiyazaidi/Leetcode/tree/master/3838-weighted-word-mapping) |
@@ -190,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0274-h-index](https://github.com/Insiyazaidi/Leetcode/tree/master/0274-h-index) |
 | [1833-maximum-ice-cream-bars](https://github.com/Insiyazaidi/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Database
 |  |
 | ------- |
