@@ -196,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Insiyazaidi/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Insiyazaidi/Leetcode/tree/master/0013-roman-to-integer) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Insiyazaidi/Leetcode/tree/master/0990-satisfiability-of-equality-equations) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Insiyazaidi/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Insiyazaidi/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/Insiyazaidi/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Insiyazaidi/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Insiyazaidi/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0901-online-stock-span](https://github.com/Insiyazaidi/Leetcode/tree/master/0901-online-stock-span) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Insiyazaidi/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Insiyazaidi/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Insiyazaidi/Leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Counting Sort
