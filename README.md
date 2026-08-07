@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/Insiyazaidi/Leetcode/tree/master/0274-h-index) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Insiyazaidi/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0486-predict-the-winner](https://github.com/Insiyazaidi/Leetcode/tree/master/0486-predict-the-winner) |
+| [0735-asteroid-collision](https://github.com/Insiyazaidi/Leetcode/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/Insiyazaidi/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0946-validate-stack-sequences](https://github.com/Insiyazaidi/Leetcode/tree/master/0946-validate-stack-sequences) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Insiyazaidi/Leetcode/tree/master/0990-satisfiability-of-equality-equations) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/Insiyazaidi/Leetcode/tree/master/0735-asteroid-collision) |
 | [0946-validate-stack-sequences](https://github.com/Insiyazaidi/Leetcode/tree/master/0946-validate-stack-sequences) |
 | [1260-shift-2d-grid](https://github.com/Insiyazaidi/Leetcode/tree/master/1260-shift-2d-grid) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Insiyazaidi/Leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
@@ -236,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Insiyazaidi/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0224-basic-calculator](https://github.com/Insiyazaidi/Leetcode/tree/master/0224-basic-calculator) |
 | [0232-implement-queue-using-stacks](https://github.com/Insiyazaidi/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0735-asteroid-collision](https://github.com/Insiyazaidi/Leetcode/tree/master/0735-asteroid-collision) |
 | [0901-online-stock-span](https://github.com/Insiyazaidi/Leetcode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Insiyazaidi/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0946-validate-stack-sequences](https://github.com/Insiyazaidi/Leetcode/tree/master/0946-validate-stack-sequences) |
