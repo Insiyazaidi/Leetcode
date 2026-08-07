@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Insiyazaidi/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Insiyazaidi/Leetcode/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/Insiyazaidi/Leetcode/tree/master/0020-valid-parentheses) |
+| [0071-simplify-path](https://github.com/Insiyazaidi/Leetcode/tree/master/0071-simplify-path) |
 | [0224-basic-calculator](https://github.com/Insiyazaidi/Leetcode/tree/master/0224-basic-calculator) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Insiyazaidi/Leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Insiyazaidi/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
@@ -229,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Insiyazaidi/Leetcode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Insiyazaidi/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0071-simplify-path](https://github.com/Insiyazaidi/Leetcode/tree/master/0071-simplify-path) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Insiyazaidi/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0224-basic-calculator](https://github.com/Insiyazaidi/Leetcode/tree/master/0224-basic-calculator) |
 | [0232-implement-queue-using-stacks](https://github.com/Insiyazaidi/Leetcode/tree/master/0232-implement-queue-using-stacks) |
