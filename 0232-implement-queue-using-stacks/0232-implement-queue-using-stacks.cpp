@@ -17,18 +17,17 @@ int peakele = 0;
     }
     
     int pop() {
-        if(!output.empty()){  // agr output empty nhi h toh yha se hi ans aaiga 
-            int storing = output.top();
-         output.pop();
-         return storing ;
-        }
+    
 
         // agr output empty h toh phir interchange kro 
-        while(!input.empty()){
+        if(output.empty()){
+    while(!input.empty()){
             output.push(input.top());
             input.pop();
         }
-        // ab saare elements output m  aagia h yha se ans aaiga 
+        }
+    
+        // agr output empty nhi  h toh yhi output se direct ans nikallo 
         int storing = output.top();
          output.pop();
          return storing ;
