@@ -218,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Insiyazaidi/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Insiyazaidi/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/Insiyazaidi/Leetcode/tree/master/1189-maximum-number-of-balloons) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Insiyazaidi/Leetcode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Insiyazaidi/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2390-removing-stars-from-a-string](https://github.com/Insiyazaidi/Leetcode/tree/master/2390-removing-stars-from-a-string) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -249,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0946-validate-stack-sequences](https://github.com/Insiyazaidi/Leetcode/tree/master/0946-validate-stack-sequences) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Insiyazaidi/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Insiyazaidi/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Insiyazaidi/Leetcode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [1441-build-an-array-with-stack-operations](https://github.com/Insiyazaidi/Leetcode/tree/master/1441-build-an-array-with-stack-operations) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Insiyazaidi/Leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2390-removing-stars-from-a-string](https://github.com/Insiyazaidi/Leetcode/tree/master/2390-removing-stars-from-a-string) |
