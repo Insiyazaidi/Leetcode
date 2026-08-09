@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Insiyazaidi/Leetcode/tree/master/0189-rotate-array) |
 | [0274-h-index](https://github.com/Insiyazaidi/Leetcode/tree/master/0274-h-index) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Insiyazaidi/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0456-132-pattern](https://github.com/Insiyazaidi/Leetcode/tree/master/0456-132-pattern) |
 | [0486-predict-the-winner](https://github.com/Insiyazaidi/Leetcode/tree/master/0486-predict-the-winner) |
 | [0735-asteroid-collision](https://github.com/Insiyazaidi/Leetcode/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/Insiyazaidi/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0456-132-pattern](https://github.com/Insiyazaidi/Leetcode/tree/master/0456-132-pattern) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Insiyazaidi/Leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Insiyazaidi/Leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Insiyazaidi/Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
@@ -240,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Insiyazaidi/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0224-basic-calculator](https://github.com/Insiyazaidi/Leetcode/tree/master/0224-basic-calculator) |
 | [0232-implement-queue-using-stacks](https://github.com/Insiyazaidi/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0456-132-pattern](https://github.com/Insiyazaidi/Leetcode/tree/master/0456-132-pattern) |
 | [0735-asteroid-collision](https://github.com/Insiyazaidi/Leetcode/tree/master/0735-asteroid-collision) |
 | [0901-online-stock-span](https://github.com/Insiyazaidi/Leetcode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Insiyazaidi/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
@@ -349,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Insiyazaidi/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0456-132-pattern](https://github.com/Insiyazaidi/Leetcode/tree/master/0456-132-pattern) |
 | [0901-online-stock-span](https://github.com/Insiyazaidi/Leetcode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Insiyazaidi/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Insiyazaidi/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
@@ -373,4 +377,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Insiyazaidi/Leetcode/tree/master/0020-valid-parentheses) |
+## Ordered Set
+|  |
+| ------- |
+| [0456-132-pattern](https://github.com/Insiyazaidi/Leetcode/tree/master/0456-132-pattern) |
 <!---LeetCode Topics End-->
