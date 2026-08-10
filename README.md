@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Insiyazaidi/Leetcode/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/Insiyazaidi/Leetcode/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/Insiyazaidi/Leetcode/tree/master/0135-candy) |
+| [0402-remove-k-digits](https://github.com/Insiyazaidi/Leetcode/tree/master/0402-remove-k-digits) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Insiyazaidi/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1833-maximum-ice-cream-bars](https://github.com/Insiyazaidi/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Insiyazaidi/Leetcode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
@@ -214,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Insiyazaidi/Leetcode/tree/master/0020-valid-parentheses) |
 | [0071-simplify-path](https://github.com/Insiyazaidi/Leetcode/tree/master/0071-simplify-path) |
 | [0224-basic-calculator](https://github.com/Insiyazaidi/Leetcode/tree/master/0224-basic-calculator) |
+| [0402-remove-k-digits](https://github.com/Insiyazaidi/Leetcode/tree/master/0402-remove-k-digits) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Insiyazaidi/Leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Insiyazaidi/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Insiyazaidi/Leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
@@ -243,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Insiyazaidi/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0224-basic-calculator](https://github.com/Insiyazaidi/Leetcode/tree/master/0224-basic-calculator) |
 | [0232-implement-queue-using-stacks](https://github.com/Insiyazaidi/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0402-remove-k-digits](https://github.com/Insiyazaidi/Leetcode/tree/master/0402-remove-k-digits) |
 | [0456-132-pattern](https://github.com/Insiyazaidi/Leetcode/tree/master/0456-132-pattern) |
 | [0735-asteroid-collision](https://github.com/Insiyazaidi/Leetcode/tree/master/0735-asteroid-collision) |
 | [0901-online-stock-span](https://github.com/Insiyazaidi/Leetcode/tree/master/0901-online-stock-span) |
@@ -354,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Insiyazaidi/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0402-remove-k-digits](https://github.com/Insiyazaidi/Leetcode/tree/master/0402-remove-k-digits) |
 | [0456-132-pattern](https://github.com/Insiyazaidi/Leetcode/tree/master/0456-132-pattern) |
 | [0901-online-stock-span](https://github.com/Insiyazaidi/Leetcode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Insiyazaidi/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
