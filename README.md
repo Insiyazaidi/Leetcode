@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Insiyazaidi/Leetcode/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/Insiyazaidi/Leetcode/tree/master/0169-majority-element) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Insiyazaidi/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/Insiyazaidi/Leetcode/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
 | [1189-maximum-number-of-balloons](https://github.com/Insiyazaidi/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1331-rank-transform-of-an-array](https://github.com/Insiyazaidi/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Insiyazaidi/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -241,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Insiyazaidi/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Insiyazaidi/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Insiyazaidi/Leetcode/tree/master/0328-odd-even-linked-list) |
+| [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/Insiyazaidi/Leetcode/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Insiyazaidi/Leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Stack
 |  |
