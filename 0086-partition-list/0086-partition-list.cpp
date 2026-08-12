@@ -11,44 +11,33 @@
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
-        ListNode* temp = head;
-       int count = 0;
-       int less = 0;
-       int more = 0;
-        while(temp!=NULL){
-     count++;
-     if(temp->val <x){
-        less++;
-     }
-     else{
-        more++;
-     }
-     temp = temp->next;
-        }
-     vector<int>v(count);
-     ListNode* pt = head;
-     int i = 0 ; // eg less = 3 , i = 0 , 1 , 2  ... more = 4 ... 
-     int j = less  ;
-     while(pt!=NULL){
-        if(pt->val <x){
-            v[i] = pt->val;
-            i++;
-        }
-        else{
-       v[j] = pt->val;
-       j++;
-        }
-        pt = pt->next;
-     }
 
-int k = 0;
-ListNode* itr = head;
-while(itr!=NULL){
-    itr->val = v[k];
-    k++;
-    itr =itr->next;
-} 
-return head;
+        ListNode* smallhead = new ListNode(0);  // these were used to store the ref for later 
+        ListNode * largehead = new ListNode(0);
+
+ListNode* small = smallhead;
+ListNode* large = largehead;
+
+        while(head!=NULL){
+            if(head->val <x){
+                small->next = head;
+              small = small->next;
+            }
+            else{
+                large->next = head;
+                large = large->next;
+            }
+              head=head->next;
+
+        }
+         // Important: terminate the large list
+        large->next = NULL;
+
+        // Connect small list with large list
+
+        // at last combine 
+        small->next = largehead->next;
+        return smallhead->next;
 
     }
 };
